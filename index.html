@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinay &amp; Athira | Wedding Invitation</title>
+<meta name="description" content="Join us as we celebrate the wedding of Vinay Sankar and Athira — 13th &amp; 14th September 2026.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Vinay &amp; Athira | Wedding Invitation">
+<meta property="og:description" content="Together with our families, we invite you to celebrate our wedding.">
+<meta property="og:type" content="website">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ INVITATION COVER (OVERLAY) ============ -->
+<div class="invitation-cover" id="invitationCover">
+  <div class="cover-card">
+    <div class="cover-motif" aria-hidden="true">✦</div>
+    <div class="cover-title">|| Shree Ganeshay Namah ||</div>
+    <h1 class="cover-names">
+      <span>Vinay</span>
+      <span class="amp">&amp;</span>
+      <span>Athira</span>
+    </h1>
+    <p class="cover-tagline">REQUEST THE PLEASURE OF YOUR COMPANY</p>
+    <button class="btn-open-invitation" id="btnOpenInvitation">
+      <i class="fa-solid fa-envelope-open"></i> OPEN INVITATION
+    </button>
+  </div>
+</div>
+
+<!-- Ambient rangoli dot field -->
+<div class="ambient-field" aria-hidden="true"></div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="hero">
+  <div class="hero-content"> 
+    <p class="eyebrow" data-reveal>Together with<br class="mobile-only"> their families</p>
+    <h1 class="couple-names" data-reveal>
+      <span>Vinay</span>
+      <span class="amp">&amp;</span><br class="mobile-only">
+      <span>Athira</span>
+    </h1>
+    <p class="hero-invite" data-reveal>cordially invite you to celebrate their wedding</p>
+    <p class="hero-date" data-reveal>Monday, 14th September 2026</p>
+  </div>
+</header>
+
+<main>
+ 
+  <!-- ============ PARIVAR ============ -->
+  <section class="parivar-section" id="parivar">
+    <div class="page-divider"><img src="flower-divider.png" alt="Flower Divider"></div>
+    <p class="section-eyebrow" data-reveal>The Parivar</p>
+    <h2 class="section-title" data-reveal>With the Blessings Of</h2>
+
+    <div class="parivar-grid">
+      <article class="themed-card parivar-card groom-card" data-reveal-stagger>
+        <div class="card-content">
+          <p class="parivar-kicker">The Groom</p>
+          <h3 class="parivar-name">Vinay Sankar</h3>
+          <p class="parivar-line">Grandson of<br>Late E. Sankaran &amp; Late Devaki<br>and Late Raman &amp; Smt. Leela</p>
+          <p class="parivar-line">Beloved son of<br><strong>Mr. E. S. Balasubramanian &amp;<br> Mrs. Rajani</strong></p>
+          <p class="parivar-address">Eyyampadikkalhouse, Manissery, Ottapalam</p>
+        </div>
+      </article>
+
+      <div class="parivar-divider" aria-hidden="true">
+        <svg viewBox="0 0 40 200"><line x1="20" y1="0" x2="20" y2="200"/><circle cx="20" cy="100" r="5"/></svg>
+      </div>
+
+      <article class="themed-card parivar-card bride-card" data-reveal-stagger>
+        <div class="card-content">
+          <p class="parivar-kicker">The Bride</p>
+          <h3 class="parivar-name">Athira</h3>
+          <p class="parivar-line">Daughter of<br>Late C. K. Rajagopalan &amp;<br> Smt. Bindu K. M.</p>
+          <p class="parivar-address"> Chemmanghat Kunnath House, Thenur P.O.,<br> Parali, Palakkad</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+
+  <!-- ============ COUNTDOWN ============ -->
+  <section class="countdown-section" id="countdown">
+    <div class="page-divider"><img src="flower-divider.png" alt="Flower Divider"></div>
+    <p class="section-eyebrow" data-reveal>Shubh Muhurat</p>
+    <h2 class="section-title" data-reveal>Counting Down to the Sacred Vows</h2>
+    <p class="countdown-sub" data-reveal>13th September 2026 · 9:30 AM IST</p>
+
+    <div class="countdown-grid" data-reveal>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-days">00</span>
+        <span class="countdown-label">Days</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-hours">00</span>
+        <span class="countdown-label">Hours</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-mins">00</span>
+        <span class="countdown-label">Mins</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-secs">00</span>
+        <span class="countdown-label">Secs</span>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============ VIVAH UTSAV ============ -->
+  <section class="events-section" id="events">
+    <div class="page-divider"><img src="flower-divider.png" alt="Flower Divider"></div>
+    <p class="section-eyebrow" data-reveal>Vivah Utsav</p>
+    <h2 class="section-title" data-reveal>Join Us In Celebration</h2>
+
+    <div class="events-grid">
+      <article class="themed-card event-card" data-reveal-stagger>
+        <div class="card-content">
+          <div class="event-icon"><i class="fa-solid fa-fire-flame-simple"></i></div>
+          <p class="event-kicker">Muhurtham &amp; Saat Phere</p>
+          <h3 class="event-title">Marriage Solemnisation</h3>
+          <p class="event-date">Monday, 13th September 2026</p>
+          <p class="event-time">9:30 AM – 10:30 AM</p>
+          <p class="event-venue">A. R. K Convention Centre<br>Ezhakkad, Mundur</p>
+          <div class="event-actions">
+            <a class="btn-map" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/search/?api=1&query=A.R.K+Convention+Centre+Ezhakkad+Mundur">
+              <i class="fa-solid fa-location-dot"></i> Open Google Maps
+            </a> 
+          </div>
+        </div>
+      </article>
+
+      <article class="themed-card event-card" data-reveal-stagger>
+        <div class="card-content">
+          <div class="event-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+          <p class="event-kicker">Baraat &amp; Grand Reception</p>
+          <h3 class="event-title">Wedding Reception</h3>
+          <p class="event-date">Monday, 14th September 2026</p>
+          <p class="event-time">4:30 PM – 7:30 PM</p>
+          <p class="event-venue">K. M. Auditorium<br>Manissery, Ottapalam</p>
+          <div class="event-actions">
+            <a class="btn-map" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/search/?api=1&query=K.M.+Auditorium+Manissery+Ottapalam">
+              <i class="fa-solid fa-location-dot"></i> Open Google Maps
+            </a> 
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery-section" id="gallery">
+    <div class="page-divider"><img src="flower-divider.png" alt="Flower Divider"></div>
+    <p class="section-eyebrow" data-reveal>Pre-Wedding Canvas</p>
+    <h2 class="section-title" data-reveal>A Few Moments We Cherish</h2>
+
+    <div class="gallery-grid">
+      <div class="gallery-frame frame-a" data-reveal-stagger>
+        <div class="frame-inner">
+          <img src="gallery1.jpeg" alt="Pre-wedding photo 1" class="gallery-img">
+        </div>
+      </div>
+      <div class="gallery-frame frame-b" data-reveal-stagger>
+        <div class="frame-inner">
+          <img src="gallery2.jpeg" alt="Pre-wedding photo 2" class="gallery-img">
+        </div>
+      </div>
+      <div class="gallery-frame frame-c" data-reveal-stagger>
+        <div class="frame-inner">
+          <img src="gallery3.jpeg" alt="Pre-wedding photo 3" class="gallery-img">
+        </div>
+      </div>
+      <div class="gallery-frame frame-d" data-reveal-stagger>
+        <div class="frame-inner">
+          <img src="gallery4.jpeg" alt="Pre-wedding photo 4" class="gallery-img">
+        </div>
+      </div>
+      <div class="gallery-frame frame-e" data-reveal-stagger>
+        <div class="frame-inner">
+          <img src="gallery5.jpeg" alt="Pre-wedding photo 5" class="gallery-img">
+        </div>
+      </div>
+    </div> 
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ashirwad" id="ashirwad">
+  <div class="footer-motif" aria-hidden="true">✿</div>
+  <p class="footer-thanks">With Gratitude</p>
+  <p class="footer-message">We cordially invite you to be part of our journey and seek your presence
+    and blessings for our new beginning.</p>
+  <p class="footer-couple">Vinay &amp; Athira</p>
+  <div class="footer-contact">
+    <p>Mr. E. S. Balasubramanian &amp; Mrs. Rajani</p>
+    <p><a href="tel:+919447255472">+91 94472 55472</a> &nbsp;·&nbsp; <a href="tel:+919847971171">+91 98479 71171</a></p>
+  </div>
+</footer>
+
+<!-- ============ FLOATING AUDIO PLAYER ============ -->
+<button class="audio-toggle" id="audioToggle" aria-label="Play wedding music" aria-pressed="false">
+  <i class="fa-solid fa-music"></i>
+</button>
+<audio id="bgAudio" loop preload="none">
+  <source src="neelashalabam.mp3" type="audio/mpeg">
+</audio>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
